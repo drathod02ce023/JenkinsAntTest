@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="dhavals-mbp.dhcp.hakozaki.ibm.com" id="0" name="HelloWorldTest" package="test" skipped="0" tests="1" time="0.059" timestamp="2017-03-14T06:52:01">
+  <testsuite errors="0" failures="0" hostname="dhavals-mbp.dhcp.hakozaki.ibm.com" id="0" name="HelloWorldTest" package="test" skipped="0" tests="1" time="0.04" timestamp="2017-03-14T06:54:47">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -32,11 +32,11 @@
 
           <property name="env.SHELL" value="/bin/bash" />
 
+          <property name="env.JAVA_STARTED_ON_FIRST_THREAD_82661" value="1" />
+
           <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0" />
 
           <property name="env.APP_ICON_66492" value="../Resources/Eclipse.icns" />
-
-          <property name="env.JAVA_STARTED_ON_FIRST_THREAD_82402" value="1" />
 
           <property name="env.PATH" value="/usr/bin:/bin:/usr/sbin:/sbin" />
 
@@ -70,6 +70,8 @@
 
           <property name="java.specification.name" value="Java Platform API Specification" />
 
+          <property name="env.JAVA_MAIN_CLASS_82661" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
+
           <property name="java.class.version" value="52.0" />
 
           <property name="user.country" value="US" />
@@ -77,8 +79,6 @@
           <property name="ant.file.JenkinsAntTest" value="/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/build.xml" />
 
           <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre" />
-
-          <property name="env.JAVA_MAIN_CLASS_82402" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
 
           <property name="java.vm.info" value="mixed mode" />
 
@@ -120,9 +120,9 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.HelloWorldTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/junit/TEST-test.HelloWorldTest.xml crashfile=/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/junitvmwatcher2394686515174915522.properties propsfile=/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/junit8125158693436605564.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.HelloWorldTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/junit/TEST-test.HelloWorldTest.xml crashfile=/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/junitvmwatcher6250976701899351425.properties propsfile=/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/junit9194065186513441642.properties" />
 
-          <property name="java.class.path" value="/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/bin:/Users/dhaval/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/dhaval/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/Users/dhaval/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-launcher.jar:/Users/dhaval/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant.jar:/Users/dhaval/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-junit.jar:/Users/dhaval/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-junit4.jar" />
+          <property name="java.class.path" value="/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/bin:/Users/dhaval/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/dhaval/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/lib/junit.jar:/Users/dhaval/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-launcher.jar:/Users/dhaval/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant.jar:/Users/dhaval/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-junit.jar:/Users/dhaval/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
 
@@ -174,7 +174,7 @@
 
       </properties>
 
-      <testcase classname="test.HelloWorldTest" name="test" time="0.001" />
+      <testcase classname="test.HelloWorldTest" name="test" time="0.0" />
 
       <system-out><![CDATA[Ant Test successfull
 ]]></system-out>
@@ -182,7 +182,7 @@
       <system-err><![CDATA[]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="dhavals-mbp.dhcp.hakozaki.ibm.com" id="1" name="HelloWorldTest2" package="test" skipped="0" tests="1" time="0.037" timestamp="2017-03-14T06:52:02">
+  <testsuite errors="0" failures="0" hostname="dhavals-mbp.dhcp.hakozaki.ibm.com" id="1" name="HelloWorldTest2" package="test" skipped="0" tests="1" time="0.038" timestamp="2017-03-14T06:54:47">
       <properties>
           <property name="java.vendor" value="Oracle Corporation" />
 
@@ -214,11 +214,11 @@
 
           <property name="env.SHELL" value="/bin/bash" />
 
+          <property name="env.JAVA_STARTED_ON_FIRST_THREAD_82661" value="1" />
+
           <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0" />
 
           <property name="env.APP_ICON_66492" value="../Resources/Eclipse.icns" />
-
-          <property name="env.JAVA_STARTED_ON_FIRST_THREAD_82402" value="1" />
 
           <property name="env.PATH" value="/usr/bin:/bin:/usr/sbin:/sbin" />
 
@@ -252,6 +252,8 @@
 
           <property name="java.specification.name" value="Java Platform API Specification" />
 
+          <property name="env.JAVA_MAIN_CLASS_82661" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
+
           <property name="java.class.version" value="52.0" />
 
           <property name="user.country" value="US" />
@@ -259,8 +261,6 @@
           <property name="ant.file.JenkinsAntTest" value="/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/build.xml" />
 
           <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre" />
-
-          <property name="env.JAVA_MAIN_CLASS_82402" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
 
           <property name="java.vm.info" value="mixed mode" />
 
@@ -302,9 +302,9 @@
 
           <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
 
-          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.HelloWorldTest2 skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/junit/TEST-test.HelloWorldTest2.xml crashfile=/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/junitvmwatcher845825147732500352.properties propsfile=/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/junit1431493873450480154.properties" />
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.HelloWorldTest2 skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/junit/TEST-test.HelloWorldTest2.xml crashfile=/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/junitvmwatcher532960222542964780.properties propsfile=/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/junit76202198792193301.properties" />
 
-          <property name="java.class.path" value="/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/bin:/Users/dhaval/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/dhaval/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/Users/dhaval/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-launcher.jar:/Users/dhaval/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant.jar:/Users/dhaval/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-junit.jar:/Users/dhaval/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-junit4.jar" />
+          <property name="java.class.path" value="/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/bin:/Users/dhaval/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/dhaval/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/Users/dhaval/Documents/workspaceneon/JenkinsAntTest/lib/junit.jar:/Users/dhaval/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-launcher.jar:/Users/dhaval/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant.jar:/Users/dhaval/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-junit.jar:/Users/dhaval/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-junit4.jar" />
 
           <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
 
@@ -356,7 +356,7 @@
 
       </properties>
 
-      <testcase classname="test.HelloWorldTest2" name="test" time="0.0" />
+      <testcase classname="test.HelloWorldTest2" name="test" time="0.001" />
 
       <system-out><![CDATA[Ant Test successfull
 ]]></system-out>
